@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .item {
+    display: none;
+  }
+  #bannerContainer{
+flex-direction: column;
+padding: 16px;
+font-family: "Gotham SSm", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-size: 12px;
+font-weight: 500;
+padding-top: 12px;
+  }
+  #video{
+    object-fit: cover;
+  }
+}

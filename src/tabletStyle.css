@@ -1,0 +1,58 @@
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  body {
+    background-color: black;
+  }
+  .item {
+    display: none;
+  }
+  #bannerCreditText {
+    width: 232px;
+    margin-left: 20px;
+    font-family: "Gotham SSm", -apple-system, "system-ui", "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  #bannerText {
+    font-size: 15px;
+    flex-direction: column;
+    width: 500px;
+  }
+  #bannerContainer {
+    height: 70px;
+  }
+  #video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  #model3 {
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Mobile-NA.jpg");
+  }
+  #model3ButtonContainer {
+    margin-top: 800px;
+  }
+  .marginTop {
+    padding-bottom: 100px;
+  }
+  #footerButtonContainer {
+    margin-top: 400px;
+  }
+  #footer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  #modelY {
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_2100,w_800,c_fit,f_auto,q_auto:best/Homepage-ModelY-LHD-Mobile");
+  }
+}
