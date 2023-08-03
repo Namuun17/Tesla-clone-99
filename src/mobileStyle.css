@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: red;
+    background-color: black;
   }
   .item {
     display: none;
@@ -13,7 +13,38 @@ font-size: 12px;
 font-weight: 500;
 padding-top: 12px;
   }
-  #video{
-    object-fit: cover;
+
+    #video {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
   }
+  #model3 {
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Mobile-NA.jpg");
+    height: 1120px;
+}
+#model3ButtonContainer {
+  margin-top: 150px;
+  
+}
+.marginTop {
+  padding-bottom: 100px;
+}
+#model3{
+  height: 590px;
+}
+.primary-button{
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.secondary-button{
+  margin-left: 60px;
+}
+#footer{
+  margin-top: 0px;
+}
+
 }
